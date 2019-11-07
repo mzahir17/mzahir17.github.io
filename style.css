@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+ overflow-x: hidden;
+ background-color: #c9efff;
+ font-family: 'Forum', cursive;
+}
+
+.menu {
+  margin-top:4vh;
+  margin-left:8vh;
+}
+
+.menu li {
+  float: left;
+  padding-right: 30px;
+  font-size: 1.5em;
+  color: #0f0175;
+  font-family: 'Forum', cursive;
+}
+
+.menu li a {
+  color: #0f0175;
+  text-decoration: none;
+}
+
+#title {
+  margin-top:5vh;
+  margin-bottom:2vh;
+  color: #0f0175;
+  font-family: 'Poiret One'
+}
+
+h1, p{
+  text-align: center;
+}
+
+p{
+  font-size: 1.2em;
+  color: #0f0175;
+}
+
+#link {
+  text-decoration: none;
+  color: #0f0175
+}
+
+.portfolio{
+  width:50%;
+}
+
+footer {
+  border-top: double;
+  color: #0f0175;
+  padding:15px;
+  font-size:1.5em;
+  text-align: center;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 5px;
+  border: blue solid 2px; 
+}
