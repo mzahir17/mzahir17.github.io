@@ -41,6 +41,10 @@ h1, p{
   text-align: center;
 }
 
+h2, p{
+  color: #0f0175;
+}
+
 p{
   font-size: 1.2em;
   color: #0f0175;
@@ -63,8 +67,10 @@ footer {
   text-align: center;
 }
 
-button {
-  font-size: 1.5em;
-  padding: 5px;
-  border: blue solid 2px; 
+.description{
+  background-color: #c9efff;
+  width: 500px;
+  border: 2px solid #0f0175; 
+  padding: 30px;
+  margin: 20px;
 }
